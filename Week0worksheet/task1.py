@@ -1,7 +1,5 @@
 def main():
-    """
-    Main function to handle user input and perform conversions.
-    """
+    
     print("Welcome to the Unit Converter!")
     print("Please select the type of conversion:")
     print("1. Length")
@@ -73,17 +71,7 @@ def main():
 
 
 def convert_length(value, from_unit, to_unit):
-    """
-    Converts a length value from one unit to another.
-
-    Parameters:
-    value (float): The value to be converted.
-    from_unit (str): The unit to convert from ('m' for meters, 'ft' for feet).
-    to_unit (str): The unit to convert to ('m' for meters, 'ft' for feet).
-
-    Returns:
-    float: The converted value.
-    """
+    
     if from_unit == 'm' and to_unit == 'ft':
         return value * 3.28084
     elif from_unit == 'ft' and to_unit == 'm':
@@ -93,17 +81,7 @@ def convert_length(value, from_unit, to_unit):
 
 
 def convert_weight(value, from_unit, to_unit):
-    """
-    Converts a weight value from one unit to another.
-
-    Parameters:
-    value (float): The value to be converted.
-    from_unit (str): The unit to convert from ('kg' for kilograms, 'lbs' for pounds).
-    to_unit (str): The unit to convert to ('kg' for kilograms, 'lbs' for pounds).
-
-    Returns:
-    float: The converted value.
-    """
+    
     if from_unit == 'kg' and to_unit == 'lbs':
         return value * 2.20462
     elif from_unit == 'lbs' and to_unit == 'kg':
@@ -113,17 +91,7 @@ def convert_weight(value, from_unit, to_unit):
 
 
 def convert_volume(value, from_unit, to_unit):
-    """
-    Converts a volume value from one unit to another.
-
-    Parameters:
-    value (float): The value to be converted.
-    from_unit (str): The unit to convert from ('L' for liters, 'gal' for gallons).
-    to_unit (str): The unit to convert to ('L' for liters, 'gal' for gallons).
-
-    Returns:
-    float: The converted value.
-    """
+    
     if from_unit == 'L' and to_unit == 'gal':
         return value * 0.264172
     elif from_unit == 'gal' and to_unit == 'L':

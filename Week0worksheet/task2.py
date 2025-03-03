@@ -1,52 +1,19 @@
 def calculate_sum(numbers):
-    """
-    Calculates the sum of a list of numbers.
-
-    Parameters:
-    numbers (list): A list of numeric values.
-
-    Returns:
-    float: The sum of the numbers.
-    """
     return sum(numbers)
 
 
 def calculate_average(numbers):
-    """
-    Calculates the average of a list of numbers.
-
-    Parameters:
-    numbers (list): A list of numeric values.
-
-    Returns:
-    float: The average of the numbers.
-    """
+    
     return sum(numbers) / len(numbers)
 
 
 def find_maximum(numbers):
-    """
-    Finds the maximum value in a list of numbers.
-
-    Parameters:
-    numbers (list): A list of numeric values.
-
-    Returns:
-    float: The maximum value in the list.
-    """
+    
     return max(numbers)
 
 
 def find_minimum(numbers):
-    """
-    Finds the minimum value in a list of numbers.
-
-    Parameters:
-    numbers (list): A list of numeric values.
-
-    Returns:
-    float: The minimum value in the list.
-    """
+    
     return min(numbers)
 
 
